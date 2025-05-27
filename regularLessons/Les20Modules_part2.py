@@ -1,7 +1,3 @@
-import math
-import random
-import Les20Modules_part1
-from mod import math
 from mod import some
 
 # example 1

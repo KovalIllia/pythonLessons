@@ -18,7 +18,7 @@
 
 
 # example 3
-fa=open('doc/file1.txt', 'r')
+fa=open('../doc/file1.txt', 'r')
 text=fa.read()
 fa.close()
 print(text)

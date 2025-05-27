@@ -1,3 +1,5 @@
+from mod import *
+
 def some():
     print("Hello World!")
 
