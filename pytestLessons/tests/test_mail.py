@@ -3,7 +3,9 @@ import pytest
 
 @pytest.fixture()
 def set_up():
-    print("Login successful!")
+    print("User has login the system")
+    yield
+    print("User has left the system")
 
 def test_sending_mail_1(set_up):
     print("Letter is sended")
