@@ -1,16 +1,14 @@
-import pytest
+# import pytest
+# from pytestLessons.tests import conftest
+# # pytest --fixtures ["/home/koval_i/PycharmProjects/pythonLessons/pytestLessons/tests"]
 
-
-@pytest.fixture()
-def set_up():
-    print("User has login the system")
-    yield
-    print("User has left the system")
 
 def test_sending_mail_1(set_up):
-    print("Letter is sended")
+    print("Letter is sended_1")
 
-def test_sending_mail_2(set_up):
-    print("Letter is sended")
+def test_sending_mail_2(set_up,another_module_fixture):
+    print("Letter is sended_2")
 
-# test_sending_mail()
+def test_sending_mail_3(set_up,another_function_fixture):
+    print("Letter is sended_2")
+
